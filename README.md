@@ -4,7 +4,7 @@
 
 **HANDY**는 초등학교 저학년 전용 AI로, 백과사전부터 긍정적인 친구, 수학 선생님, 그리고 영웅 소설의 상상까지, 아이들이 필요로 하는 모든 것을 제공합니다. AI 기반으로 다양한 기능을 통해 학습과 탐구를 재미있고 창의적으로 접근할 수 있도록 돕습니다.
 
-##. API 서버 실행
+## API 서버 실행
 
 서버는 기본적으로 포트 `8080`에서 실행됩니다. 아래 API 엔드포인트를 사용할 수 있습니다:
 
@@ -12,6 +12,8 @@
 - `/api/search/problemTransformation` - 문제 변형 검색 API
 - `/api/search/basic` - 일반 검색 API
 - `/api/chat` - AI와의 대화 API
+
+<br>
 
 ## 주요 기능
 
@@ -59,6 +61,8 @@ public Map<String, String> chatWithAI(@RequestBody Map<String, String> requestBo
 ```
 
 AI와 자연스러운 대화를 나누며 다양한 질문에 대한 응답을 받을 수 있습니다.
+
+<br>
 
 ## 프로젝트 참여자
 
