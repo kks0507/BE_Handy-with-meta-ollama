@@ -77,6 +77,8 @@ public Map<String, String> analyzeDiary(@RequestBody Map<String, String> request
 }
 ```
 
+<br>
+
 ### 2. 문제 변형 검색 API (`ProblemTransformationService`, `AIController`)
 
 * **`ProblemTransformationService.generateResponse(searchQuery)`**:
@@ -138,6 +140,7 @@ public Map<String, String> searchProblemTransformation(@RequestBody Map<String, 
     return response;
 }
 ```
+<br>
 
 ### 3. AI와의 대화 기능 (`ChatService`, `AIController`)
 
